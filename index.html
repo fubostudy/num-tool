@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+    <title>数字和字母转换</title>
+</head>
+<body>
+    <div class="container">
+        <textarea id="inputArea" placeholder="输入内容..."></textarea>
+        <textarea id="outputArea" placeholder="输出内容..." readonly></textarea>
+        <div id="copyAlert" class="copy-alert">已复制到剪贴板！</div>
+    </div>
+</body>
+</html>
