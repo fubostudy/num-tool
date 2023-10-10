@@ -1,7 +1,7 @@
-const inputArea = document.getElementById('inputArea');
-const outputArea = document.getElementById('outputArea');
-const numberProcessed = document.getElementById('numberProcessed'); // 新增的区域
-const copyAlert = document.getElementById('copyAlert');
+const inputArea = document.getElementById("inputArea");
+const outputArea = document.getElementById("outputArea");
+const numberProcessed = document.getElementById("numberProcessed"); // 新增的区域
+const copyAlert = document.getElementById("copyAlert");
 const map = {
   0: "t",
   1: "d",
@@ -13,7 +13,7 @@ const map = {
   7: "y",
   8: "m",
   9: "e",
-  z: "+"  // 新的映射规则
+  "+": "z", // 新的映射规则
 };
 
 inputArea.addEventListener("input", (e) => {
@@ -48,10 +48,10 @@ inputArea.addEventListener("input", (e) => {
 });
 
 function showCopyAlert() {
-    copyAlert.classList.add('show');
-    setTimeout(() => {
-        copyAlert.classList.remove('show');
-    }, 1000);  
+  copyAlert.classList.add("show");
+  setTimeout(() => {
+    copyAlert.classList.remove("show");
+  }, 1000);
 }
 
 function copyToClipboard(text) {
