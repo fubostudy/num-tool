@@ -1,5 +1,5 @@
 body {
-/*     font-family: Arial, sans-serif; */
+    font-family: Arial, serif;
 /*     font-family: 'KaiTi', '楷体', serif; */
     background: linear-gradient(to right, #a1c4fd, #c2e9fb);
     height: 100vh;
@@ -23,7 +23,6 @@ textarea {
     font-size: 16px;
     outline: none;
     resize: none;
-    font-family: 'KaiTi', '楷体', serif;  /* Setting the KaiTi font for textarea */
 }
 
 .copy-alert {
