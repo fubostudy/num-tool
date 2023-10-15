@@ -23,6 +23,7 @@ textarea {
     font-size: 16px;
     outline: none;
     resize: none;
+    font-family: 'KaiTi', '楷体', serif;  /* Setting the KaiTi font for textarea */
 }
 
 .copy-alert {
